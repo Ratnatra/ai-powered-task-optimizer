@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zidio AI-Powered Task Optimizer</title>
+</head>
+<body>
+    <h1>Zidio AI-Powered Task Optimizer</h1>
+    <form action="/detect_emotion" method="post" enctype="multipart/form-data">
+        <label for="text_input">Text Input:</label>
+        <input type="text" id="text_input" name="text_input"><br><br>
+        <label for="video_input">Video Input:</label>
+        <input type="file" id="video_input" name="video_input"><br><br>
+        <label for="audio_input">Audio Input:</label>
+        <input type="file" id="audio_input" name="audio_input"><br><br>
+        <button type="submit">Detect Emotion</button>
+    </form>
+    <form action="/recommend_task" method="post">
+        <label for="mood">Detected Mood:</label>
+        <input type="text" id="mood" name="mood"><br><br>
+        <button type="submit">Recommend Task</button>
+    </form>
+</body>
+</html>

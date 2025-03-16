@@ -1,0 +1,10 @@
+tensorflow
+torch
+opencv-python-headless
+speechrecognition
+flask
+pandas
+numpy
+scikit-learn
+nltk
+spacy
