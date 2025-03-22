@@ -1,7 +1,7 @@
 # Zidio AI-Powered Task Optimizer
 
 ## Description
-This project focuses on leveraging data science and machine learning techniques to analyze employee emotions and moods using data such as text inputs, facial expressions, or speech. The system provides insights into the emotional state of employees and recommends tasks that align with their mood to enhance productivity and well-being. Additionally, it detects employees who may be experiencing stress, burnout, or other negative emotions and notifies HR or higher authorities to take timely action. This ensures that appropriate support, such as counseling, stress management programs, or task adjustments, can be provided, fostering a healthier and more empathetic workplace environment.
+Zidio AI-Powered Task Optimizer leverages data science and machine learning techniques to analyze employee emotions and moods using data such as text inputs, facial expressions, or speech. The system provides real-time emotion detection and offers task recommendations based on the detected mood, ultimately aiming to enhance employee productivity and well-being.
 
 ## Features
 1. **Real-Time Emotion Detection**
@@ -28,33 +28,28 @@ This project focuses on leveraging data science and machine learning techniques 
 - NLTK or SpaCy for text analysis
 
 ## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Ratnatra/ai-powered-task-optimizer.git
-   cd ai-powered-task-optimizer
-   ```
 
-2. Create and activate a virtual environment:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
+1. Create and activate a virtual environment:
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows: venv\Scripts\activate
+    ```
 
-3. Install the required packages:
-   ```bash
-   pip install -r requirements.txt
-   ```
+2. Install the required packages:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 ## Usage
 1. Start the web server:
-   ```bash
-   flask run  # Or use `python manage.py runserver` if using Django
-   ```
+    ```bash
+    flask run  # Or use `python manage.py runserver` if using Django
+    ```
 
 2. Access the application in your web browser:
-   ```
-   http://127.0.0.1:5000  # Adjust the port if necessary
-   ```
+    ```
+    http://127.0.0.1:5000  # Adjust the port if necessary
+    ```
 
 3. Use the web interface to upload text inputs, live camera video, or speech data for emotion detection and task recommendations.
 
@@ -65,3 +60,17 @@ This project focuses on leveraging data science and machine learning techniques 
 4. Push to the branch (`git push origin feature-branch`).
 5. Create a new Pull Request.
 
+## Screenshots
+![Emotion Detection](screenshots/emotion_detection.png)
+![Task Recommendation](screenshots/task_recommendation.png)
+![Mood Tracking](screenshots/mood_tracking.png)
+
+## FAQ
+**Q: How does the system detect emotions?**
+A: The system uses a combination of text analysis, live camera video, and speech processing to detect emotions.
+
+**Q: Is my data safe?**
+A: Yes, the system ensures that all sensitive data is anonymized and securely stored.
+
+**Q: Can I integrate this system with existing HR tools?**
+A: Yes, the system is designed to be flexible and can be integrated with various HR tools.
